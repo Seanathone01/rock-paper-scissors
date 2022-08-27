@@ -28,6 +28,19 @@ body {
     gap: 125px;
 }
 
+#player, #computer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+#playChoiceName, #compChoiceName {
+  height: 20px;
+  color: black;
+  font-size: 20px;
+}
+
 #playerChoice, #computerChoice {
     height: 150px;
     width: 150px;
@@ -37,7 +50,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 6px;
-    background-color: #e6e4e3
+    background-color: #e6e4e3;
 }
 
 #middle {
