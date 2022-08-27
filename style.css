@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    background-color: #cce2f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titleContainer {
+    color: black;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+}
+
+#gameContainer {
+    display: flex;
+    height: 500px;
+    border: 3px solid black;
+    height: 375px;
+    width: 1000px;
+    background-color: white;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+}
+
+#playerChoice, #computerChoice {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #e6e4e3
+}
+
+#middle {
+    height: 350px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px
+}
+
+#vs {
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+#score {
+    font-size: 40px;
+}
+
+#outcome {
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+#choiceContainer {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 150px;
+  }
+
+  .rockButton {
+    background-color: #D8372c;
+  }
+  .paperButton {
+    background-color: #239ac4
+  }
+  .scissorsButton {
+    background-color: #53c55d
+  }
+
+  .rockButton:hover {
+    background-color: #Bd423b
+  }
+  .paperButton:hover {
+    background-color: #07649f;
+  }
+  .scissorsButton:hover {
+    background-color: #28a832;
+  }
+
+  button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .rockContainer, .scissorsContainer, .paperContainer {
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+  }
+  
